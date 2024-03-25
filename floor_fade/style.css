@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-block h3 {
+    margin: 0;
+    font-size: 72px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
